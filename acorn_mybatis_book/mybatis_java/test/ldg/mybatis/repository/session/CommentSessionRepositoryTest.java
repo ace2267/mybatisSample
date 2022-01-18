@@ -39,7 +39,7 @@ public class CommentSessionRepositoryTest {
 		// 입력한다.
 		Integer result = commentSessionRepository.insertComment(comment);
 
-		System.out.println(result);
+		System.out.println(result);   
 	}
 
 	public void testUpdateComment() {
